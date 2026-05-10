@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h2>PAYMENT PAGE</h2>
+    <form action="" id="form">
+        <label for=" name"> NAME :
+            <input type="text" id="name">
+        </label>
+        <br>
+        <label for="contact"> CONTACT NO. :
+            <input type="number" id="contact">
+        </label>
+        <br>
+
+        <label for="address"> ADDRESS :
+            <input type="text" id="address">
+        </label>
+        <br>
+        <label for="car "> CAR TYPE :
+            <!-- <input type="text"> -->
+            <select name="" id="car_list">
+                <option value="SELECT">---SELECT-----</option>
+                <option value="car">CAR</option>
+                <option value="SEDAN">SEDAN</option>
+                <option value="SUVs">SUVs</option>
+                <option value="BUS">BUS</option>
+            </select>
+        </label>
+        <br>
+        <label for="booking"> TYPE OF BOOKING :
+            <!-- <input type="text"> -->
+            <select name="" id="booking_list">
+                <option value="SELECT">---SELECT-----</option>
+                <option value="book_rent">RENT</option>
+                <option value="book_reserve">RESERVE</option>
+                <option value="book_pickup&drop">PICKUP&DROP</option>
+                <option value="BUS">BUS</option>
+            </select>
+        </label>
+        <br>
+        <label for="distance"> DISTANCE :
+            <input type="number" id="distance">
+        </label>
+        <br>
+        <label for="bill"> BILL :
+            <input type="number" id="bill">
+        </label>
+    </form>
+    <button id="subnit_click" onclick="submit_form()">Submit</button>
+
+    <!-- <button id="print" onclick="submit_p()" style="display: none;">
+        <a href="getreciept.html">print</a>
+    </button> -->
+
+    <button onclick="sendData()">next</button>
+    <script src="information_entering.js">   
+    </script>
+</body>
+
+</html>

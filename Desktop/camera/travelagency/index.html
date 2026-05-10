@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .vehicle {
+          ;
+        } */
+    </style>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h2> TRAVEL COMPANY </h2>
+    </header>
+
+
+    <button onclick="btnclick()">book</button>
+    <ul id="listed" style="  display: none;">
+        <li class="vehicle"> car
+            <button id="car" class="fourwheeler" onclick="clickcar()">click</button>
+        </li>
+        <li class="vehicle">SEDAN
+            <button id="sedan" class="fourwheeler" onclick="clicksedan()">click</button>
+
+        </li>
+        <li class="vehicle">SUVs
+            <button id="suvs" class="fourwheeler" onclick="clicksuvs()">click</button>
+        </li>
+        <li class="vehicle">BUS
+            <button id="bus" class="fourwheeler" onclick="clickbus()">click</button>
+        </li>
+    </ul>
+
+    <div id="carspace" style="display: none;">
+        <h2>---CAR--</h2>
+        <p>------select the service-------</p>
+        <select id="1" class="selectArea" onchange="toggleInput(this)">
+            <option>select</option>
+            <option value="ent">rent</option>
+            <option value="reserve">reserve</option>
+            <option value="drop">using to drop or pick</option>
+        </select>
+    </div>
+    <div id="sedanspace" style="display: none;">
+        <h2>---SEDAN--</h2>
+        <p>------select the service-------</p>
+        <select id="2" class="selectArea" onchange="toggleInput(this)">
+            <option>select</option>
+            <option value="ent">rent</option>
+            <option value="reserve">reserve</option>
+            <option value="drop">using to drop or pick</option>
+        </select>
+    </div>
+    <div id="suvspace" style="display: none;">
+        <h2>---SUVs--</h2>
+        <p>------select the service-------</p>
+        <select id="1" class="selectArea" onchange="toggleInput(this)">
+            <option>select</option>
+            <option value="ent">rent</option>
+            <option value="reserve">reserve</option>
+            <option value="drop">using to drop or pick</option>
+        </select>
+    </div>
+    <div id="busspace" style="display: none;">
+        <h2>---BUS--</h2>
+        <p>------select the service-------</p>
+        <select id="1" class="selectArea" onchange="toggleInput(this)">
+            <option>select</option>
+            <option value="ent">rent</option>
+            <option value="reserve">reserve</option>
+            <option value="drop">using to drop or pick</option>
+        </select>
+    </div>
+
+    <div id="rentoption" class="hidden" style="display: none;">---RENT----
+        <p> not available
+            <div id="for_payment">
+                <a href="information_entering.html" target="_blank">Click to add information</a>
+            </div>
+        </p>
+    </div>
+    <div id="reserveoption" class="hidden" style="display: none;">---RESERVE----
+        <!-- not available -->
+<a href="information_entering.html" target="_blank">Click to add information</a>
+    </div>
+    <div id="dropOrPickupoption" class="hidden" style="display: none;">---DROP OR PICKUP----
+        <!-- not available -->
+        <a href="payment-submit.html" target="_blank">Click to add information</a>
+    </div>
+
+    <footer>thank for visiting</footer>
+</body>
+
+</html>
