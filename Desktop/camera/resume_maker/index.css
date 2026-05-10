@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#input_container{
+    background-color: royalblue;
+    margin: 100px;
+    padding: 30px;
+    
+}
+input{
+     width: 100%;
+     padding: 10px;
+     margin-top: 10px;
+     margin-bottom: 5px;
+    
+}

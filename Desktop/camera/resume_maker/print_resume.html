@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="print_resume.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <div id="resume">
+        <h2>NAME
+            <h2 id="resume_name"></h2>
+        </h2>
+
+        <p> <b>contact</b> <span id="resume_contact"></span></p>
+        <p> <b>email</b> <span id="resume_email"></span></p>
+        <p> <b>Address</b> <span id="resume_address"></span></p>
+        <p> <b>contact</b> <span id="resume_contact"></span></p>
+        <hr>
+        <h3>objective</h3>
+        <p id="resume_objective"></p>
+          <hr>
+         <h3>Education</h3>
+        <p id="resume_objective"></p>
+          <hr>
+         <h3>Experience</h3>
+        <p id="resume_objective"></p>
+          <hr>
+         <h3>Skill</h3>
+        <p id="resume_objective"></p>
+          <hr>
+         <h3>personal detail</h3>
+        <p id="resume_objective"></p>
+    </div>
+    <button id="id_generator" onclick="generatePDF()"> GeneratePDF</button>
+    </div>
+    <script src="print_resume.js"></script>
+</body>
+
+</html>
